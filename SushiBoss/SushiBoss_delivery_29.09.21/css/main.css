@@ -1,0 +1,246 @@
+ h1{
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: #464444;
+       }
+       .km{
+        margin-left: 24px;
+        padding: 6px;
+        border-radius: 7px;
+        border: 2px solid #a09e9e;
+        font-family: 'Roboto';
+       }
+       .line_km{
+        margin-left: 24px;
+        padding: 6px;
+        border-radius: 7px;
+        border: 2px solid #a09e9e;
+        font-family: 'Roboto';
+       }
+       .button_addRoute{
+        display: block;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #3f8fcc;
+        border-bottom: none;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      .button_addLine{
+        display: block;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #da3333c7;
+        border-bottom: none;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      .button_removeLine{
+        display: block;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #3355dac7;
+        border-bottom: none;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+       
+       .route{
+        display: flex;
+        align-items: center;
+       }
+       .line{
+        display: flex;
+        align-items: center;
+       }
+
+     .info{
+      border: 2px solid #a09e9e;
+      border-radius: 25px;
+      padding: 14px;
+      margin-right: 30px;
+     }
+     .block{
+      display: flex;
+      margin: 55px;
+     }
+
+      #map {
+        border-radius: 25px;
+        height: 400px;
+        width: 600px;
+       }
+
+       .select-css { 
+      padding: 6px;
+      border-radius: 7px;
+      font-weight: bold;
+      color: #000000;
+      background: #d2d2d2;
+      border-bottom: none;
+      margin-bottom: 8px;
+      }
+
+
+      .cost{
+        padding: 12px;
+        border-radius: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #218633;
+        border-bottom: none;
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      
+      .r{
+        display: block;
+        padding: 12px;
+      border-radius: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      background: #33bfba;;
+      border-bottom: none;
+      margin-bottom: 8px;
+      }
+
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        width: 88%;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: 2px solid #a09e9e;
+        
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+      .price{
+        display: flex;
+        align-items: center;
+      }
+      .price p{
+        font-family: 'Roboto';
+        font-size: 15px;
+        color: #464444;
+        margin: 0px;
+      }
+      .line_delivery{
+        font-family: 'Roboto';
+        font-size: 15px;
+        color: #464444;
+        margin: 0px;
+      }
+      .input_price{
+        width: 35%;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: 2px solid #a09e9e;
+        margin-left: 24px;
+      }
+      .button_addDelivery{
+        display: block;
+        padding: 6px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #0f6322c7;
+        border-bottom: none;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      .information{
+        font-family: 'Roboto';
+        margin-left: 20px;
+      }
+      .custom{
+        border-radius: 100px;
+        display: flex;
+      }
+      .default{
+        display: flex;
+        margin-bottom: 10px;
+      }
+      .icon{
+        margin-right: 5px;
+        border-radius: 100px;
+      }
+      .information_delivery p{
+        padding: 0px;
+        margin: 3px;
+      }
+      .information_delivery{
+        font-family: 'Roboto';
+        margin: 55px;
+        border: 2px solid #a09e9e;
+        border-radius: 25px;
+        padding: 14px;
+        font-size: 15px;
+        color: #464444;
+      }
+      .city{
+        margin-bottom: 15px;
+      }
+
+
+
+
+
+
+
+
+
