@@ -13,26 +13,26 @@ let count = 18;
     }
   }
 // Pizzas
-new Pizza(0, "Маргарита", 125, "/img/margo.webp");
-new Pizza(1, "Фунги", 145, "/img/chicken.webp");
-new Pizza(2, "Донна", 145, "/img/gavai.webp");
-new Pizza(3, "Мюнхен", 165, "/img/meat.webp");
-new Pizza(4, "Пепперони", 165, "/img/peperoni.webp");
-new Pizza(5, "Вайт пепп", 165, "/img/simena.webp");
-new Pizza(6, "Гаваи 2.0", 165, "/img/margo.webp");
-new Pizza(7, "Четыре сыра", 175, "/img/cheese.webp");
-new Pizza(8, "Парма", 175, "/img/margo.webp");
-new Pizza(9, "Четыре мяса ", 195, "/img/margo.webp");
-new Pizza(10, "Бирне", 195, "/img/margo.webp");
-new Pizza(11, "Сальмоне", 215, "/img/margo.webp");
+new Pizza(0, "Маргарита", 125, "./img/margo.webp");
+new Pizza(1, "Фунги", 145, "./img/chicken.webp");
+new Pizza(2, "Донна", 145, "./img/gavai.webp");
+new Pizza(3, "Мюнхен", 165, "./img/meat.webp");
+new Pizza(4, "Пепперони", 165, "./img/peperoni.webp");
+new Pizza(5, "Вайт пепп", 165, "./img/simena.webp");
+new Pizza(6, "Гаваи 2.0", 165, "./img/margo.webp");
+new Pizza(7, "Четыре сыра", 175, "./img/cheese.webp");
+new Pizza(8, "Парма", 175, "./img/margo.webp");
+new Pizza(9, "Четыре мяса ", 195, "./img/margo.webp");
+new Pizza(10, "Бирне", 195, "./img/margo.webp");
+new Pizza(11, "Сальмоне", 215, "./img/margo.webp");
 // Coctails 
-new Pizza(12, "Апероль", 90, "/img/aperol.jpeg");
-new Pizza(13, "Мохито", 90, "/img/mohito.jpeg");
-new Pizza(14, "Джин тоник", 125, "/img/gin.jpeg");
-new Pizza(15, "Секс на пляже", 90, "/img/sex.jpeg");
-new Pizza(16, "Маргарита", 90, "/img/margo.jpeg");
-new Pizza(17, "Текила санрайз", 90, "/img/tecila.jpeg");
-new Pizza(18, "Негрони", 90, "/img/negroni.jpeg");
+new Pizza(12, "Апероль", 90, "./img/aperol.jpeg");
+new Pizza(13, "Мохито", 90, "./img/mohito.jpeg");
+new Pizza(14, "Джин тоник", 125, "./img/gin.jpeg");
+new Pizza(15, "Секс на пляже", 90, "./img/sex.jpeg");
+new Pizza(16, "Маргарита", 90, "./img/margo.jpeg");
+new Pizza(17, "Текила санрайз", 90, "./img/tecila.jpeg");
+new Pizza(18, "Негрони", 90, "./img/negroni.jpeg");
 
 
 // --------------------------    Render catalog    --------------------------
@@ -77,7 +77,7 @@ function createNewCart(){
   let input_price = parseInt(document.getElementById("input_price").value);
   count = count + 1;
   console.log(count);
-  new Pizza(count, input_name, input_price, "/img/margo.webp");
+  new Pizza(count, input_name, input_price, "./img/margo.webp");
   document.getElementById("menu_cards").innerHTML = "";
   renderCatalog();
 }
