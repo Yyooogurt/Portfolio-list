@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- имя-блока__имя-элемента блока
+Элемент — всегда часть блока, а не другого элемента
+
+<form class="search-form">
+    <div class="search-form__content">
+        <input class="search-form__input">
+        <button class="search-form__button">Найти</button>
+    </div>
+</form>
+Рекомендуется:
+            `search-form__button` или `search-form__content-button`
+            
+ Блок `search-form`
+<div class="search-form">
+Блок `input` 
+    <input class="input">
+
+ Блок `button`
+    <button class="button">Найти</button>
+</div>
+имя-блока__имя-элемента_имя-модификатора.
+
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css?_v=20220901121317">
+    <title>@@title</title>
+</head>
+<body>
+    <header>
+        <!-- Block container -->
+        <div class="header-container">
+             <!-- Block for all menu -->
+            <div class="header-menu">
+                <!-- Block for logo -->
+                <div class="logo">
+                    Rubynet
+                </div>
+                <!-- Block for navigation -->
+                <nav class="menu">
+                    <!-- Block for list --> 
+                    <ul class="menu-list">
+                        <!-- List Items (elements) -->
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Tariffs & Price</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Оffers</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Reviews</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Additional</a></li>
+                    </ul>
+                </nav>
+                <!-- Block for contacts -->
+                <div class="contacts">
+                    <!-- Block element (schedule)  -->
+                    <p class="contacts__schedule" >09:00 - 18:00</p>
+                    <!-- Block for list --> 
+                    <ul class="contacts-list">
+                        <!-- List Items (elements) -->
+                        <li class="contacts-list__item"><a class="contacts-list__link" href="tel:066-534-32-56">+38 (066) 534 32 56</a></li>
+                        <li class="contacts-list__item"><a class="contacts-list__link" href="tel:066-534-32-56">+38 (066) 534 32 56</a></li>
+                    </ul>
+                </div>
+            </div>
+             <!-- Block for all header contents -->
+            <div class="header-content">
+                <!-- Block for all main title -->
+                <div class="header-main">
+                     <!-- Block element (title)  -->
+                    <h1 class="header-main__title">looking for high-speed 
+                        internet in a private home?
+                    </h1>
+                    <!-- Block element (subtitle)  -->
+                    <p class="header-main__subtitle">Connect on our official website and learn all the benefits</p>
+                </div>
+                <!-- Block for buttons -->
+                <div class="header-action">
+                    <!-- Independent button elements -->
+                    <a id="" class="action-button action__button_active" href="">Order</a>
+                    <a id="" class="action-button" href="">Consultation</a>
+                </div>
+                <!-- Block for footer -->
+                <div class="header-footer">
+                    <!-- Block for icons -->
+                    <div class="icons-block">
+                        <!-- Block for list -->
+                        <ul class="icons-list">
+                             <!-- List Items (elements) -->
+                             <li class="icons-list__item"></li>
+                             <li class="icons-list__item"></li>
+                             <li class="icons-list__item"></li>
+                        </ul>
+                    </div>
+                    <!-- Block for benefits -->
+                    <div class="header-benefits">
+                        <!-- Block for list -->
+                        <ul class="behefits-list">
+                             <!-- List Items (elements) -->
+                            <li class="behefits-list__item">Speed up to 150 Mbps</li>
+                            <li class="behefits-list__item">Free test for 30 days</li>
+                            <li class="behefits-list__item">Unlimited tariffs</li>
+                            <li class="behefits-list__item">Works in all villages </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Block container -->
+        <section class="capabilities-container">
+            <!-- Block for all main title -->
+            <div class="capabilities-main">
+                <!-- Block element (subtitle)  -->
+                <p class="title-other capabilities-main__title">Our</p>
+                <!-- Block element (title)  -->
+                <h2 class="title capabilities-main__title">Capabilities</h2>
+                <img src="" alt="" class="capabilities-main__arrow">
+            </div>
+            <div class="capabili-content">
+                <!-- Block for list -->
+                <ul class="capabili-list">
+                    <!-- Block for items -->
+                    <li class="capabili-item">
+                        <!-- List Items (elements) -->
+                        <img src="" alt="">
+                        <h3 class="capabili-item__title">Quick connection</h3>
+                        <p class="capabili-item__text">In order to join the Internet, it is enough to leave an application online on our website.</p>
+                    </li>
+                    <li class="capabili-item">
+                        <img src="" alt="">
+                        <h3 class="capabili-item__title">High speed internet</h3>
+                        <p class="capabili-item__text">Our unlimited tariffs up to 100 Mbit, really correspond to the declared speeds</p>
+                    </li>
+                    <li class="capabili-item">
+                        <img src="" alt="">
+                        <h3 class="capabili-item__title">Affordable prices</h3>
+                        <p class="capabili-item__text">The optimal pricing policy makes Ruby-net accessible to everyone. We are constantly working on it.</p>
+                    </li>
+                    <li class="capabili-item">
+                        <img src="" alt="">
+                        <h3 class="capabili-item__title">Quality service</h3>
+                        <p class="capabili-item__text">An experienced and friendly technical support service is at your service: we will help</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="tariffs-container">
+            <!-- Block for all main title -->
+            <div class="tariffs-main">
+                <!-- Block element (title)  -->
+                <h2 class="title tariffs-main__title">Tariffs & Price</h2>
+                <!-- Block element (subtitle)  -->
+                <p class="tariffs-main__subtitle">High-speed Internet in a private home is considered an important condition not only for recreation, but also for work due to the huge number of freelancers and private entrepreneurs. </p>
+            </div>
+            <div class="tariffs-content">
+                <!-- Block for list -->
+                <ul class="tariffs-list">
+                    <!-- Block for items -->
+                    <li class="tariffs-item">
+                        <!-- List Items (elements) -->
+                        <h3 class="tariffs-item__title">Quick connection</h3>
+                        <p class="tariffs-item__subtitle">In order to join the Internet, it is enough to leave an application online on our website.</p>
+                        <ul class="tariffs-item__list">
+                            <li class="tariffs-item__list__item">Standard</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s downld</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s sending</li>
+                            <li class="tariffs-item__list__item">Gray "IP address"</li>
+                        </ul>
+                        <!-- <a id="" class="action-button action__button_active" href="">Order</a> -->
+                        <a id="" class="action-button" href="">Connect</a>
+                    </li>
+                    <li class="tariffs-item">
+                        <!-- List Items (elements) -->
+                        <h3 class="tariffs-item__title">Quick connection</h3>
+                        <p class="tariffs-item__subtitle">In order to join the Internet, it is enough to leave an application online on our website.</p>
+                        <ul class="tariffs-item__list">
+                            <li class="tariffs-item__list__item">Standard</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s downld</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s sending</li>
+                            <li class="tariffs-item__list__item">Gray "IP address"</li>
+                        </ul>
+                        <a id="" class="action-button action__button_active" href="">Connect</a>
+                    </li>
+                    <li class="tariffs-item">
+                        <!-- List Items (elements) --> 
+                        <h3 class="tariffs-item__title">Quick connection</h3>
+                        <p class="tariffs-item__subtitle">In order to join the Internet, it is enough to leave an application online on our website.</p>
+                        <ul class="tariffs-item__list">
+                            <li class="tariffs-item__list__item">Standard</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s downld</li>
+                            <li class="tariffs-item__list__item">Up to 100 Mbit /s sending</li>
+                            <li class="tariffs-item__list__item">Gray "IP address"</li>
+                        </ul>
+                        <a id="" class="action-button" href="">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="cctv-container">
+            <div class="cctv-main">
+                <span class="cctv-main__span">CCTV</span>
+                <!-- Block element (title)  -->
+                <h2 class="title cctv-main__title">A typical video surveillance system intended for home</h2>
+                <!-- Block element (subtitle)  -->
+                <p class="cctv-main__subtitle">A typical video surveillance system intended for home use includes a video camera connected via cable or wireless to the home LAN.</p>
+                <p class="cctv-main__subtitle">The kit also includes software for remote monitoring, video recording, and management of recorded content. The network is built on the basis of one or several IP cameras.</p>
+                <ul class="cctv-item__list">
+                    <li class="cctv-item__list__item">The kit also includes software for remote monitoring</li>
+                    <li class="cctv-item__list__item">Transmission of video over a network requires</li>
+                </ul>
+                <a id="" class="action-button action__button_active" href="">Order CCTV</a>
+            </div>
+            <div class="cctv-image">
+                <img src="" alt="cctv camera" class="cctv-image__img">
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="services-container">
+            <!-- Block for all main title -->
+            <div class="services-main">
+                <!-- Block element (subtitle)  -->
+                <p class="title-other services-main__title">Order</p>
+                <!-- Block element (title)  -->
+                <h2 class="title services-main__title">Additionally</h2>
+                <p class="services-main__subtitle">To clarify all additional services, contact us by phone number or leave a request on the website</p>
+            </div>
+            <div class="select">
+                select section soon...
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="form-container">
+            <div class="form-main">
+                <h2 class="form-main__title">Leave a request and we will answer your questions</h2>
+                <form action="#" class="form">
+                    <div>
+                        <label for="username"></label>
+                        <input id="username" type="text" name="username" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="username"></label>
+                        <input id="username" type="text" name="username" placeholder="Phone number or Email">
+                    </div>
+                    <a id="" class="form-button" href="">Send <img src="" alt=""></a>
+                </form>
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="faq-container">
+            <div class="faq-main">
+                <h2 class="title faq-main__title">FAQ</h2>
+                <p class="faq-main__subtitle">Here you can see frequently asked questions and perhaps find the one you need</p>
+                <img src="" alt="">
+            </div>
+            <div class="faq-accordion">
+                <ul class="faq-list">
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                    <li class="faq-list__item">
+                        <button class="faq-list__button">Check the possibility of connecting to the address of interest</button>
+                        <div class="faq-list__panel">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Block container -->
+        <section class="rewiews-container">
+            <div class="rewiews-main">
+                <h2 class="title rewiews-main__title">FAQ</h2>
+                <img src="" alt="">
+            </div>
+            <div class="slider">soon...</div>
+        </section>
+    </main>
+    <footer>
+        <!-- Block container -->
+        <div class="footer-container">
+            <div class="footer-left">
+                <ul class="info-list">
+                    <li class="info-list__item"><a href="mailto:info@gmail.com" class="info-list__link"><img src="" alt="">info@gmail.com</a></li>
+                    <li class="info-list__item"><a href="tel:066-504-33-00" class="info-list__link"><img src="" alt="">+ 380 66 504 33 00</a></li>
+                    <li class="info-list__item"><a href="#" class="info-list__link"><img src="" alt="">09:00 - 18:00</a></li>
+                    <li class="info-list__item"><a href="https://goo.gl/maps/cCY3K3ypkEm5ZSsEA" target="_blank" class="info-list__link"><img src="" alt="">Dnipro, st. Mikhail Hrushevsky, 15</a></li>
+                </ul>Services
+                <div class="footer-links">
+                    <ul class="services-list">
+                        <p class="services-list__title">Services</p>    
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Office Internet</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Home</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Premium</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Private sector</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">TV</a></li>
+                    </ul>
+                    <ul class="information-list">
+                        <p class="information-list__title">Information</p>    
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Connection</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Payment</a></li>
+                        <li class="services-list__item"><a href="#" class="services-list__link"><img src="" alt="">Documentation</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-right"></div>
+        </div>
+    </footer>
+
+    <script src="js/app.min.js?_v=20220901121317"></script>
+</body>
+</html>
