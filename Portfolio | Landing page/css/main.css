@@ -1,0 +1,659 @@
+/*-----Подключение шрифтов -----*/
+@font-face {
+  font-family: 'Museo Sans 100';
+  src: url('../fonts/museosanscyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url('../fonts/museosanscyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Museo Sans 900';
+  src: url('../fonts/museosanscyrl-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/museosanscyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/museosanscyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/museosanscyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/museosanscyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/museosanscyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Natasha';
+  src: url('../fonts/natasha.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/natasha.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/natasha.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/*-----Спецификация-----*/
+body{
+  font-family: 'Museo Sans 300',sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+div, p, form, input, a, span, button{
+  box-sizing: border-box;
+} 
+p{
+  margin: 0;
+  line-height: 1.5em;
+}
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Natasha', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  color: #22241b;
+  letter-spacing: 0.12em;
+  font-size: 37px;
+}
+h3{
+ font-size: 22px;
+ letter-spacing: 0.12em;
+ color: #888886;
+}
+h4{
+  text-transform: uppercase;
+  font-family: 'Museo Sans 900', sans-serif;
+  font-size: 15px;
+  color: #4b4c47;
+  letter-spacing: 0.12em;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+.d-flex{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.justify-content-spase-around{
+  justify-content: space-around;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items:center;
+}
+/*-----Хедер-----*/
+.header{
+  padding: 53px 0 83px; 
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #363d35 url(../img/Слой2.jpg)  no-repeat center top / cover;
+}
+.menu{
+  line-height: 1.4em;
+}
+.menu__logo{
+  transition: all 0.3s ease;
+  letter-spacing: 0.18em;
+  font-family: 'Museo Sans 900',sans-serif;
+}
+.menu__logo span{
+  font-family: 'Museo Sans 100',sans-serif;
+}
+.menu__logo:hover{
+  background: rgba(0,0,0, 0.3);
+  border-radius: 5px;
+
+}
+.menu__list a{
+  border-radius: 5px;
+  transition: 0.3s;
+  letter-spacing: 0.065em;
+  font-family: 'Museo Sans 900',sans-serif;
+  padding: 4px 23px 4px 23px;
+}
+.menu__list a:hover{
+  color: #32322c;
+  background: #fff;
+  padding: 4px 23px 4px 23px;
+}
+.menu__list a:active{
+  transition: all 0.5s ease;
+  color: #fff;
+  background: none;
+}
+.menu__emaill{
+  margin-top: 9px;
+  letter-spacing: 0.12em;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  line-height: 0.1em;
+  text-transform: none;
+  font-family: 'Museo Sans 300',sans-serif;
+  border-bottom: 1px solid #6b6d69;
+}
+.menu__emaill:hover{
+  transition: 0.3s;
+  color: #7e7f7b;
+}
+.header__title{
+  margin-top: 292px;
+  margin-bottom: 258px;
+}
+.header__title-main{
+  margin-bottom: 16px;
+  letter-spacing: 0.12em;
+  font-family: 'Natasha', sans-serif;
+  font-size: 49px;
+}
+.header__title-minor{
+ color: #fff;
+ letter-spacing: 0.12em;
+ font-family: 'Museo Sans 100',sans-serif;
+ font-size: 29px;
+}
+.header__anchor {
+  transition: 0.3s;
+  margin: 0 auto;
+  padding-top: 8px;
+  width: 38px;
+  height: 38px;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.header__anchor:hover{
+ transition: all 0.3s ease;
+ background: #fff;
+ color: #2b2e1b;
+}
+.header__anchor:active{
+ transition: all 0.3s ease;
+ background: none;
+ color: #fff;
+}
+/*-----Обо мне-----*/
+.about{
+  padding: 87px 0 0 0;
+}
+.about__title{
+  margin-bottom: 69px;
+}
+.background{
+  width: 443px;
+  color: #22241b;
+}
+.background__title{
+  margin-bottom: 36px;
+}
+.background__text{
+  margin-bottom: 26px;
+  line-height: 1.7em;
+  letter-spacing: -0.01em;
+}
+.info{
+  width: 460px;
+}
+.deserts{
+  margin-top: 58px;
+}
+.deserts__item{
+  position: relative;
+  width: 125px;
+  text-align: center;
+}
+.deserts__icon{
+  transition: all 0.8s ease;
+  font-family: 'Museo Sans 100',sans-serif;
+  color: #204d15;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 71px;
+  height: 71px;
+  border: 1px solid #204d15;
+  transform: rotate(-45deg);
+}
+.deserts__icon:hover{
+  transition: all 0.5s ease;
+  box-shadow: 0 0 18px rgb(27, 70, 39) inset;
+}
+.deserts__icon:after{
+  transition: all 1s ease;
+  content: '';
+  display: block;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border: 1px solid #c6d6bb;
+  left: 5px;
+  top: 5px;
+}
+.deserts__icon:hover::after{
+  content: '';
+  display: block;
+  box-shadow: 0 0 18px rgba(50, 50, 44, 0.67) inset;
+}
+.deserts__icon span{
+  align-items: center;
+  display: block;
+  transform: rotate(45deg);
+}
+.deserts__icon span:hover{
+  transition: all 2s ease;
+   box-shadow: 0 0 18px rgba(70, 27, 27, 0) inset;
+}
+.deserts__text{
+  margin: 0 auto;
+  margin-top: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  font-family: 'Museo Sans 100',sans-serif;
+}
+.deserts__text_medium{
+  width: 110px;
+}
+.deserts__text_long{
+  width: 115px;
+}
+.deserts__text_short{
+  width: 55px;
+}
+.info__title_connect{
+  margin-top: 63px;
+}
+.connect__links{
+  padding-top: 22px;
+  width: 180px;
+}
+.connect__links a{
+  transition: all 0.3s ease;
+  padding: 0 4px 0 4px;
+  letter-spacing: 0.12em;
+  line-height: 2.6em;
+  border-bottom: 1px solid #becbbb;
+  color: #204d15;
+  font-size: 14px;
+}
+.connect__links a:hover{
+  border-bottom: none;
+  padding: 0 4px 0 4px;
+  transition: all 0.3s ease;
+  color: #000;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0, 0.6);
+  border-radius: 10px;
+}
+.connect__user{
+  margin-left: 32px;
+  margin-top: 13px;
+  align-items: center;
+}
+.connect__user-icon{
+  transition: all 0.5s ease;
+  padding-top: 18px;
+  font-size: 26px;
+  font-family: 'Stroke-Gap-Icons';
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #eef1ed;
+  color: #204d15;
+}
+.connect__user-icon:hover{
+  box-shadow: 0 0 10px rgba(0,0,0, 1);
+  transition: all 0.5s ease;
+  background: #204d15;
+  color: #fff;
+}
+.connect__user-text{
+  margin-left: 18px;
+  font-size: 14px;
+  color: #797a77;
+  font-style: oblique;
+}
+/*-----Способности-----*/
+.abilities{
+  padding: 67px 0 85px;
+  padding-top: 67px;
+
+}
+.abilities__title{
+      margin-bottom: 55px;
+}
+.abiliti__item{
+  width: 25%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+.abiliti__icon{
+  position: relative;
+  margin-right: 29px;
+  padding-top: 20px;
+  text-align: center;
+  color: #204d15;
+  height: 59px;
+  width: 59px;
+  border-radius: 50%;
+  border: 1px solid #234f18;
+}
+.abiliti__icon:after{
+  transition: all 0.5s ease;
+  content: '';
+  display: block;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  border: 1px solid #b2b6b1;
+  border-radius: 50%;
+  left: 4px;
+  top: 4px;
+}
+.abiliti__icon:hover{
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px rgba(34,86,18, 1);
+  color: #fff;
+  background: rgba(34,86,18, 0.9);
+}
+
+/*-----Работа-----*/
+.work__title{
+  margin-bottom: 52px;
+}
+.photo__item img{
+  margin: 0 auto;
+  display: block;
+}
+.photo__item{
+  position: relative;
+}
+.photo__overlay{
+    background: #e84545;
+    flex-flow: column wrap;
+    text-transform: uppercase;
+    font-family: 'Museo Sans 900',sans-serif;
+    font-size: 15px;
+    background: rgba(0,0,0,0.56);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo__item:hover .photo__overlay{
+  opacity: 0.9;
+}
+.photo__overlay a{
+  font-size: 13px;
+  font-family: 'Museo Sans 300',sans-serif;
+  margin-top: 9px;
+  text-transform: none;
+  border-bottom: 1px solid #868687;
+}
+/*-----Футер-----*/
+.footer{
+  padding: 122px 0 112px;
+}
+.footer__text{
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #888886;
+}
+/*-----Media Queries -----*/
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+  .container{
+    width: 870px;
+  }
+  .info{
+    margin-left: 20px;
+  }
+  .photo__item{
+    width: 30%;
+  }
+  .photo__item img{
+    width: 100%;
+  }
+  .abiliti__item{
+    margin-right: 40px;
+  }
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container{
+    width: 700px;
+  }
+  .photo__overlay{
+    opacity:1
+    background: rgba(0,0,0,0.36);
+  }
+  .menu{
+    flex-direction: column;
+  }
+  .menu__nav{
+    margin: 30px 0 15px;
+    justify-content: center;
+  }
+  .menu__emaill{
+    border-bottom: none;
+  }
+  .about-me{
+    flex-flow: column wrap;
+  }
+  .background{
+    width: 673px;
+  }
+  .info{
+    margin: 20px 0;
+  }
+  .deserts, .connect{
+    width: 700px;
+  }
+  .connect__user {
+    margin-left: 142px;
+}
+  .abiliti__item{
+    flex-direction: column;
+    margin: 0px;
+  }
+  .abiliti__icon{
+    margin: 0 0 15px;
+  }
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container{
+    width: 520px;
+  }
+  .background, .deserts, .connect{
+    width: 520px;
+  }
+  .connect__user {
+    margin-left: 100px;
+}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  .container{
+    width: 90%;
+  }
+  .header__title{
+    margin: 70px 0 30px;
+  }
+  .header__title-main{
+   font-size: 41px;
+   }
+   .header__title-minor{
+    font-size: 24px;
+   }
+   .background, .deserts, .connect, .info{
+    width: 100%;
+  }
+  .menu__nav{
+    display: none;
+  }
+  .deserts{
+    flex-wrap: wrap;
+  }
+  .connect{
+    flex-direction: column;
+  }
+  .deserts__item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .deserts__text{
+    margin-bottom: 20px;
+  }
+  .abiliti{
+    flex-wrap: wrap;
+  }
+  .abiliti__item{
+    width: 50%;
+  }
+  .abiliti__title{
+    margin-bottom: 20px;
+  }
+  .info{
+    margin: 0 auto;
+  }
+  .connect__links, .connect__user, .abiliti__item, .photo__item{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .connect__links{
+    align-items: center;
+  }
+  .connect__user{
+    margin-top: 20px;
+  }
+  .photo{
+    flex-direction: column;
+  }
+  .photo__item{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

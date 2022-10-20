@@ -1,0 +1,508 @@
+/*.......Specification.......*/
+body{
+	font-family: Roboto, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+} 
+p{
+	margin: 0;
+	line-height: 1.5em;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.d-flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.justify-content-spase-around{
+	justify-content: space-around;
+}
+.justify-content-space-between{
+	justify-content: space-between;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.align-items-center{
+	align-items:center;
+}
+/*.......Header.......*/
+.navigation{
+	padding-top: 15.5px;
+	background: #fff;
+	padding-bottom: 23px;
+}
+.header .container{
+	align-items: center;
+}
+.logo__icon{
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	width: 49px;
+	height: 49px;
+	background: #1b3bde;
+}
+.logo__icon i{
+	color: #fff;
+	margin-top:12px;
+	font-size: 25px;
+}
+.logo__text{
+	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+	text-transform: uppercase;
+	align-items: center;
+	margin-left: 11.5px;
+	font-size: 14.55px;
+	font-weight: 900;
+	color: #1b3bde;
+	width: 100px;
+}
+.logo__text span{
+	font-size: 20.2px; 
+}
+.header__menu{
+	margin-left: 78px;
+}
+.header__menu a{
+	border-radius: 5px;
+	padding: 6px 21px 6px 21px;
+	font-size: 13px;
+	font-weight: 400;
+	color:#000;
+	text-decoration: none;
+}
+.header__menu a:hover{
+	padding: 6px 21px 6px 21px;
+	transition: all .5s;
+	border-radius: 5px;
+	background: #000;
+	color: #fff;
+}
+.header__phone{
+	margin-left: auto; 
+	font-weight: 900;
+	color:#000;
+	font-size: 15px;
+	text-decoration: none;
+}
+.offer{
+	box-shadow:  0 -4px 9px rgba(0, 0, 0, 0.1);
+	padding-top: 89px;
+	padding-bottom: 134px;
+	background: #f0f7f7 url(../img/cub.jpg) no-repeat center top;
+}
+.master-class{
+	text-align: center;
+	width: 505px;
+}
+.master-class__online{
+	margin-bottom: 25px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.master-class__title{
+	margin-bottom: 29px;
+	text-align: center;
+	text-transform: none;
+	font-size: 45px;
+	font-weight: 900;
+	color: #1b3bde;
+}
+.master-class__date{
+	padding: 3px 3px;
+	border-radius: 3px;
+	margin: 0 auto;
+	width: 148px;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	background: #000;
+}
+.form{
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
+	text-align: center;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	border-radius: 5px;
+	width: 333px;
+	height: 418px;
+	background: #fff;
+}
+.form__title{
+	margin-bottom: 15px;
+ 	font-size: 17px;
+ 	font-weight: 900;
+}
+.form__text{ 
+	width: 260px;
+	margin: 0px auto 18px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.form__input{
+	margin-bottom: 6px;
+	line-height: 3em;
+	font-family: Roboto, Arial, sans-serif;
+	outline:none;
+	color: #bababa;
+	font-size: 13px;
+	font-weight: 400;
+	width: 268px;
+	transition: all .3s;
+	border:none;
+	border-bottom: 1px solid #bababa;
+}
+.form__input:focus::placeholder, .form__input:hover::placeholder{
+	color: #000;
+}
+.form__input:hover, .form__input:focus{
+	border-color: #000;
+}
+.button{
+	font-family: Roboto, Arial, sans-serif;
+	outline: none;
+	margin-bottom: 13px;
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 268px;
+	height: 59px;
+    cursor: pointer;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+	font-weight: 900;
+	background: #4acc4d;
+}
+.button:active{
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.38);
+}
+.button:hover{
+	border: 2px solid #4acc4d;
+	color: #4acc4d;
+	background: #fff;
+	transition: all .3s;
+}
+.form__security{
+	color: #adadad;
+	font-size: 12px;
+	font-weight: 400;
+}
+/*.......Money section.......*/
+.money{
+	padding-top: 122px;
+	padding-bottom: 122px;
+}
+.about-me{
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
+	padding: 40px 0 0 56px;
+	background: #9d6bdc;
+	color: #fff;
+	width: 469px;
+    height: 265px;
+    border-radius: 5px;
+}
+.about-me__name{
+	margin-bottom:12px;
+	font-size: 18px;
+	font-weight: 900;
+}
+.about-me__details{
+	 font-size: 15px;
+	 font-weight: 400;
+}
+.about-me__digits{
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+.about-me__element{
+	margin-right: 35px;
+ 	align-items: center;
+}
+.about-me__icon{
+	 font-size: 39px;
+	 font-weight: 700;
+}
+.about-me__site{
+    margin-left: 17px;
+ 	font-size: 13px;
+ 	font-weight: 400;
+}
+.about-me__site_long{
+ 	width: 77px;
+}
+.about-me__site_short{
+ 	width: 50px;
+}
+.about-me__link{
+     color: #fff;
+	 font-size: 14px;
+	 font-weight: 900;
+	 text-decoration: none;
+}
+.about-me__link:hover{
+ 	font-size: 15px;
+}
+.purple-and-text{
+   margin-bottom: 65px;
+}
+.statistic{
+	width: 451px;
+	margin: 63px 0 0 97px;
+}
+.statistic__title{
+	margin-bottom: 17px;
+	font-size: 28px;
+	font-weight: 900;
+}
+.statistic__text{
+	font-size: 15px;
+}
+.hmm{
+	width: 600px;
+	padding-top: 71px;
+	padding-left: 132px;
+}
+.hmm__title{
+	margin-bottom: 16px;
+	font-size: 28px;
+	font-weight: 900;
+}
+.hmm_text{
+	font-size: 15px;
+	font-weight: 400;
+}
+.yellow{
+	padding: 98px 0 0 172px;
+	box-shadow: 0 13px 98px rgba(0, 0, 0, 0.24);
+	background: #f6e23a;
+	color: #000;
+	width: 469px;
+    height: 265px;
+    border-radius: 5px;
+}
+.yellow__title{
+	font-size: 43px;
+	font-weight: 900;
+}
+.yellow__text{
+	margin-top: -2px;
+	margin-left: 21px;
+	font-size: 21px;
+	font-weight: 400;
+}
+/*.......Work section.......*/
+.work{
+	padding-bottom: 103px;
+	padding-top: 98px;
+	background: #f0f7f7 url(../img/cub.jpg) no-repeat center top;
+}
+.work__title{
+	line-height: 1.4em;
+	margin-bottom: 65px;
+	font-size: 28px;
+	font-weight: 900;
+}
+.work__icon{
+	padding-top: 24px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 900;
+	color: #fff;
+	background: #1b3bde;
+	width: 82px;
+	height: 82px;
+	border-radius: 5px;
+}
+.work__content{
+	width: 215px;
+	margin-left: 34px;
+}
+.work__blue-title{
+	margin-top: 19px;
+    margin-bottom: 12px;
+	color: #1b3bde;
+	font-size: 19px;
+	font-weight: 900;
+}
+.work__text{
+	font-size: 15px;
+	font-weight: 400;
+}
+.work__blue-title span{
+	display: block;
+	width: 94px;
+
+}
+.work__content_short{
+	width: 150px;
+}
+/*.......About-you section.......*/
+.about-you{
+	padding-bottom: 100px;
+	padding-top: 88px;
+}
+.about-you__title{
+	font-size: 28px;
+	font-weight: 900;
+	margin-bottom: 67px;
+}
+.about-you__card{
+	color: #fff;
+	font-size: 19px;
+	font-weight: 900;
+	text-align: center;
+	padding-top: 67px;
+	height: 237px;
+	width: 348px;
+	border-radius: 5px;
+}
+.about-you__text{
+	width: 252px;
+	margin: 0 auto;
+}
+.about-you__card i{
+	margin-bottom: 15px;
+	font-size: 42px;
+}
+.about-you__card:hover{
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.22);
+}
+.about-you__card{
+	box-shadow: 0px 13px 98px rgba(0, 0, 0, 0.24);
+}
+.about-you__card_green{
+	background: #4acc4d;
+}
+.about-you__card_blue{
+	background: #4ac7cc;
+}
+.about-you__short{
+  width: 161px;
+}
+.about-you__card_pink{
+	background: #dc6b83;
+}
+/*.......Book section.......*/
+.book{
+	padding: 103px 0 104px 0;
+	background: #3350e0 url(../img/blue.jpg) no-repeat center top;
+}
+.master{
+	text-align: center;
+	margin-top: 107px;
+	color: #fff;
+}
+.master__online,.master__info{
+	font-size: 16px;
+	font-weight: 300;
+}
+.master__online{
+	margin-bottom: 35px;
+}
+.master__title{
+	line-height: 1.36em;
+    margin-bottom: 26px;
+	font-size: 28px;
+	font-weight: 900;
+}
+/*.......Footer.......*/
+.footer{
+	padding: 23px 0 40px;
+}
+.footer__root{
+	margin-left: 153px;
+	font-size: 12px;
+	font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Myportfolio</title>
+	<meta name="description" content="Мое портфолио">
+	<meta name="keywords" content="верстка,css,html">
+	<link rel="icon" href="img/MMMk.ico" type="image/x-icon">
+ 	<link rel="shortcut icon" href="img/MMMk.ico" type="image/x-icon"> 
+	<meta property="og:title" content="Дело, которым я живу">
+	<meta property="og:description" content="Я — профессиональный веб-верстальщик">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#png" >
+	<meta property="og:site_name" content="Myportfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/stroke-gap-icons.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+            <div class="menu d-flex justify-content-space-between">
+				<div class="menu__logo">
+					<a href="index.html"><span>My</span>portfolio</a>
+				</div>
+				<nav class="menu__nav">
+					<ul class="menu__list d-flex">
+						<li><a href="#about">Обо мне</a></li>
+						<li><a href="#abilities">Навыки</a></li>
+						<li><a href="#work">Работы</a></li>
+					</ul>
+				</nav>
+				<a class="menu__emaill" href="mailto:info@myname.com" target="_blank">info@myname.com</a>
+			</div>
+			<div class="header__title">
+				<h1 class="header__title-main">Дело, которым я живу</h1>
+				<h2 class="header__title-minor">Верстка & frontend</h2>
+			</div>
+			<a href="#about" class="header__anchor">↓</a>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<h2 class="about__title">Oбо мне</h2>
+ 			<div class="about-me d-flex justify-content-space-between">
+				<div class="background">
+					<h3 class="background__title">Бэкграунд</h3>
+					<p class="background__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+					<p class="background__text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+					<p class="background__text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quiis aute irure dolor in reprehenderit in is aute irure dolor in reprehenderit in is aute irure dolor in reprehenderit in.</p>
+				</div>
+				<div class="info">
+					<h3 class="info__title info__title_deserts">Заслуги</h3>
+					<div class="deserts d-flex justify-content-spase-around">
+						<div class="deserts__item">
+							<div class="deserts__icon"><span>75</span></div>
+							<p class="deserts__text deserts__text_medium">Реализованных проектов</p>
+						</div>
+						<div class="deserts__item">
+							<div class="deserts__icon"><span>154</span></div>
+							<p class="deserts__text deserts__text_long">Положительных отзыва</p>
+						</div>
+						<div class="deserts__item">
+							<div class="deserts__icon"><span>8</span></div>
+							<p class="deserts__text deserts__text_short">Лет опыта</p>
+						</div>
+					</div>
+					<h3 class="info__title info__title_connect">Связь</h3>
+					<div class="connect d-flex">
+						<div class="connect__links">
+							<a href="freelance.ru/myname">freelance.ru/myname</a>
+							<a href="vk.com/12343">vk.com/12343</a>
+							<a href="info@sitename.ru">info@sitename.ru</a>
+						</div>
+						<div class="connect__user d-flex">
+							<div class="connect__user-icon"><i class="icon icon-User"></i></div>
+							<p class="connect__user-text">Не стесняйтесь, пишите</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <section class="abilities" id="abilities">
+	 	<div class="container">
+	 		<h2 class="abilities__title">Навыки</h2>
+	 		<div class="abiliti d-flex justify-content-space-between">
+	 			<div class="abiliti__item">
+	 				<div class="abiliti__icon">
+	 					98%
+	 				</div>
+	 				<h4 class="abiliti__title">Photoshop</h4>
+	 			</div>
+	 			<div class="abiliti__item">
+	 				<div class="abiliti__icon">
+	 					99%
+	 				</div>
+	 				<h4 class="abiliti__title">Html5</h4>
+	 			</div>
+	 			<div class="abiliti__item">
+	 				<div class="abiliti__icon">
+	 					100%
+	 				</div>
+	 				<h4 class="abiliti__title">CSS3</h4>
+	 			</div>
+	 			<div class="abiliti__item">
+	 				<div class="abiliti__icon">
+	 					0%
+	 				</div>
+	 				<h4 class="abiliti__title">Лень</h4>
+	 			</div>
+	 		</div>	
+	 	</div>
+	 </section>
+	 <section class="work" id="work">
+	 	<div class="container">
+	 		<h2 class="work__title">Работы</h2>
+	 		<div class="photo d-flex justify-content-space-between">
+	 			<div class="photo__item">
+	 				<img src="img/wil-stewart.jpg" alt="waterfall">
+	 				<div class="photo__overlay">Водопад
+	 				<a href="#">Смотреть</a>
+	 				</div>
+	 			</div>
+	 			<div class="photo__item">
+	 				<img src="img/deer.jpg" alt="deer">
+	 				<div class="photo__overlay">Название работы
+	 				 	<a href="#">Смотреть</a>
+	 				</div>
+	 			</div>
+	 			<div class="photo__item">
+	 				<img src="img/ales-krivec.jpg" alt="house">
+	 				<div class="photo__overlay">Дом 
+	 					<a href="#">Смотреть</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </section>
+	 <footer class="footer" id="footer">
+	 	<div class="container">
+	 		<p class="footer__text">2018-2099 / Смотрю в будущее</p>
+	 	</div>
+	 </footer>
+</body>
+</html>

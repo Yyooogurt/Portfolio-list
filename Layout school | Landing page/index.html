@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Моя школа верстки">
+	<meta name="keywords" content="верстка,css,html">
+	<link rel="icon" href="#.png" type="image/x-icon">
+ 	<link rel="shortcut icon" href="#.png" type="image/x-icon"> 
+	<meta property="og:title" content="Я — профессиональный веб-верстальщик">
+	<meta property="og:description" content="Я — профессиональный веб-верстальщик">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#png" >
+	<meta property="og:site_name" content="TEST">
+    <link rel="stylesheet" href="fa/fontawesome-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Большое практическое задание</title>
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="navigation">
+			<div class="container d-flex">
+				<div class="logo d-flex">
+					<a href="index.html" class="logo__icon">
+						<i class="far fa-plug"></i>
+					</a>
+					<a href="index.html" class="logo__text">Моя школа <span>Верстки</span></a>
+				</div>
+				<nav>
+					<ul class="header__menu d-flex">
+						<li><a href="#">Знаете ли вы</a></li>
+						<li><a href="#">Зачем</a></li>
+						<li><a href="#">Кому</a></li>
+						<li><a href="#">Регистрация</a></li>
+					</ul>
+				</nav>
+				<a class="header__phone" href="tel:+749556756412"><i class="far fa-phone"></i> +7 (495) 567-564-12</a>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container d-flex justify-content-spase-around">
+				<div class="master-class">
+					<div class="master-class__online">
+						<i class="far fa-graduation-cap"></i>
+						 Онлайн-мастер-класс
+					</div>
+					<h1 class="master-class__title">Я — профессиональный веб-верстальщик</h1>
+					<p class="master-class__date">9 апреля в 18:00</p>
+				</div>
+				<form action="#" class="form">
+					<h4 class="form__title">Забронировать участие</h4>
+					<p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
+			 		<input class="form__input" type="name" placeholder="Введите имя" name="name" required>
+					<input class="form__input" type="email" placeholder="Ведите E-mail" name="email" required>
+					<input class="form__input" type="tel" placeholder="Введите телефон" name="phone" required>
+					<button class="button" type="submit">Оставить заявку</button>
+					<p class="form__security">Ваши данные под защитой</p>
+				</form>
+			</div>
+		</div>
+	</header>
+	<section class="money" id="money">
+		<div class="container">
+			<div class="purple-and-text d-flex">
+				<div class="about-me">
+					<div class="about-me__name">
+						Егор Рябошапка
+					</div>
+					<div class="about-me__details">
+						<p class="about-me__text">
+							Ведущий мастер-класса
+						</p>
+						<p class="about-me__text">
+							Веб-дизайнер и фрилансер
+						</p>
+					</div>
+					<div class="about-me__digits d-flex">
+						<div class="about-me__element d-flex align-items-center">
+							<div class="about-me__icon">
+								100+
+							</div>
+							<div class="about-me__site about-me__site_long">
+								Созданных сайтов
+							</div>
+						</div>
+						<div class="about-me__element d-flex align-items-center">
+							<div class="about-me__icon">
+								8
+							</div>
+							<div class="about-me__site about-me__site_short">
+								Лет опыта
+							</div>
+						</div>
+					</div>
+					<a href="#" class="about-me__link">
+						Узнать больше
+					</a>
+				</div>
+	            <div class="statistic">
+	            	<h2 class="statistic__title">Знаете ли вы?</h2>
+	            	<p class="statistic__text">По статистике, среднестатистический фрилансер зарабатывает около <b>30 тысяч рублей</b> в месяц. Чаще всего, гораздо меньше этой цифры.</p>
+	            </div>
+	        </div>
+	        <div class="yellow-and-text d-flex justify-content-space-between">
+	            <div class="hmm">
+	            	<div class="hmm__content">
+		            	<h2 class="hmm__title">Хм...</h2>
+		            	<p class="hmm__text">Почему же так мало? Чего не хватает фрилансерам, чтобы “пробить потолок” хотя бы...</p>
+	            	</div>
+	            </div>
+	            <div class="yellow">
+	            	<div class="yellow__content">
+		            	<h2 class="yellow__title">$1000</h2>
+		            	<p class="yellow__text">в месяц?</p>
+	            	</div>
+	            </div>
+			</div>
+		</div>
+	</section>
+	<section class="work" id="work">
+		<div class="container">
+			<h2 class="work__title">Я покажу,<br> как мне удается...</h2>
+			<div class="work__items d-flex justify-content-space-between">
+				<div class="work__item d-flex">
+					<div class="work__icon">
+						1
+					</div>
+					<div class="work__content">
+						<h4 class="work__blue-title">Зарабатывать тысячи долларов</h4>
+						<p class="work__text">Исключительно с помощью веб-верстки и навыков разработки сайтов</p>
+					</div>
+				</div>
+				<div class="work__item d-flex">
+					<div class="work__icon">
+						2
+					</div>
+					<div class="work__content">
+						<h4 class="work__blue-title work__content_short"><span>Работать</span> в путешествиях</h4>
+						<p class="work__text">Без возврата домой, используя ноутбук и все возможности фриланса</p>
+					</div>
+				</div>
+				<div class="work__item d-flex">
+					<div class="work__icon">
+						3
+					</div>
+					<div class="work__content">
+						<h4 class="work__blue-title">Быть на шаг впереди конкурентов</h4>
+						<p class="work__text">Используя проверенные стратегии развития, общения и работы с клиентами</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-you" id="about-you">
+		<div class="container">
+			<h2 class="about-you__title">Если вы</h2>
+			 <div class="about-you__cards d-flex justify-content-space-between">
+			 	<div class="about-you__card about-you__card_green">
+			 		<i class="far fa-flag"></i>
+			 		<h4 class="about-you__text about-you__short">Начинающий веб-верстальщик</h4>
+			 	</div>
+			 	<div class="about-you__card about-you__card_blue">
+			 		<i class="far fa-money-bill-alt"></i>
+			 		<h4 class="about-you__text">Не довольны доходами на фрилансе</h4>
+			 	</div>
+			 	<div class="about-you__card about-you__card_pink">
+			 		<i class="far fa-meh"></i>
+			 		<h4 class="about-you__text">На фрилансе >2 лет, но ваш доход < $1000</h4>
+			 	</div>
+			 </div>
+		</div>
+	</section>
+	<section class="book" id="book">
+		<div class="container d-flex justify-content-spase-around">
+			<div class="master">
+				<div class="master__online">
+					<i class="far fa-graduation-cap"></i>
+					 Онлайн-мастер-класс
+				</div>
+				<h2 class="master__title">Не потеряйте уникальную возможность.<br>Бронируйте участие уже сегодня!</h2>
+				<p class="master__info"><i class="far fa-clock"></i> 9 апреля в 18:00 <i class="far fa-users"></i> Всего 40 мест</p>
+			</div>
+			<form action="#" class="form">
+				<h4 class="form__title">Забронировать участие</h4>
+				<p class="form__text">Чтобы стать профессионалом в  HTML и CSS, а также делать WOW</p>
+		 		<input class="form__input"  type="name" placeholder="Введите имя" name="name" required>
+				<input class="form__input" type="email" placeholder="Ведите E-mail" name="email" required>
+				<input class="form__input" type="tel" placeholder="Введите телефон" name="phone" required>
+				<button class="button" type="submit">Оставить заявку</button>
+				<p class="form__security">Ваши данные под защитой</p>
+			</form>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container d-flex align-items-center">
+			<div class="logo d-flex">
+				<a href="index.html" class="logo__icon">
+					<i class="far fa-plug"></i>
+				</a>
+				<a href="index.html" class="logo__text">Моя школа <span>Верстки</span></a>
+			</div>
+			<p class="footer__root">Все права защищены</p>
+			<a class="footer__phone header__phone" href="tel:+749556756412"><i class="far fa-phone"></i> +7 (495) 567-564-12</a>
+		</div>
+	</footer>
+</body>
+</html>

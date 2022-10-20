@@ -1,0 +1,263 @@
+/*-----Media Queries -----*/
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+}
+/* 768-992px */
+@media screen and (max-width: 1199px) {
+  .slider{
+    height: 481px;
+  }
+  
+  .services-offer__links {
+    padding: 0; 
+}
+  .miss__left {
+    padding-right: 37px;
+}
+  .car__item img{
+ width: 100%;
+}
+  .car__item{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-offer__content{
+  text-align: center;
+}
+.menu__link{
+  font-size: 16px;
+}
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .blue-card{
+    right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+  }
+  .blue-card::before{
+  display: none;
+}
+.blue-item__right {
+    width: 70%;
+    margin-left: 0;
+}
+  .menu-opened{
+    transform: translateX(-27%);
+  }
+  .advant__item::after {
+    width: 100%;
+}
+  .services-offer__links{
+    text-align: center;
+    justify-content: space-between;
+}
+  .law__services{
+   	display: none;
+}
+  .services-offer__content{
+    text-align: center;
+    margin-bottom: 25px;
+}
+  .miss{
+    margin-bottom: 40px;
+}
+  .lab__item{
+    margin-bottom: 40px;
+}
+
+  .about-offer__links{
+  margin-top: 50px;
+}
+  .advantages .container:nth-child(1)::after {
+    
+}
+  .footer__logo img{
+    width: 100%;
+}
+  .menu__list{
+    margin-top: 20px;
+}
+  .menu__link:after{
+    display: none;
+}
+  .car__item img{
+    width: 100%;
+}
+}
+/* 576-768px */
+@media screen and (max-width: 767px) {
+  .menu-opened{
+    transform: translateX(-17%);
+  }
+  .law__content {
+    text-align: center;
+    padding-right: 0px; 
+    margin-top: 35px;
+}
+  .miss__right{
+    margin-top: 30px;
+}
+  .about-offer__link a{
+    padding: 11px 7px 9px 14px;
+    font-size: 12px;
+}
+  .phone__btn{
+    width: 142px;
+
+}
+  .logo img{
+    width: 100%;
+}
+  .car__item img{
+ width: 100%;
+}
+}
+/* 320-576px */
+@media screen and (max-width: 575px) {
+  .blue-item__right {
+    width: 100%;
+    margin-top: 30px;
+}
+  .blue-card{
+    height: auto;
+  }
+   .blue-item{
+    flex-direction: column;
+  }
+  .logo img {
+    width: 120%;
+}
+  .advantages .container:nth-child(1)::after {
+    bottom: -20px;
+  }
+  .consult {
+    width: auto;
+}
+  .miss__right, .miss__left{
+    width: 100%;
+  }
+  .footer__logo img {
+    width: 50%;
+}
+  .phone__btn{
+    width: 115px;
+    padding: 6px 0px 6px;
+    font-size: 10px;
+}
+  .advant__content {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+  .advant__text{
+  margin-bottom: 0;
+}
+  .advant__item{
+  margin-top: 40px;
+}
+  .info__box{
+    text-align: center;
+}
+  .about-offer__links,.contact-offer__links,.services-offer__links{
+    flex-direction: column;
+    text-align: center;
+}
+  .about-offer__link{
+    margin-bottom: 25px;
+}
+   .car__item img{
+ width: 80%;
+}
+  .footer__box{
+    text-align: center;
+}
+  .footer__item{
+    justify-content: center;
+}
+  .footer__text{
+    text-align: center;
+}
+  .footer__logo{
+    text-align: center;
+}
+  .phone__btn_margin{
+    margin: 30px auto;
+}
+}
+@media screen and (max-width: 485px) {
+  .blue-item__left {
+    width: 100%;
+}
+  .menu-opened{
+    transform: translateX(0%);
+    width: 100%;
+  }
+  .offer__title{
+    font-size: 45px;
+  }
+  .offer__text{
+    font-size: 25px;
+  }
+}
+/* 320-380px */
+@media screen and (max-width: 380px) {
+  .blue-top{
+    flex-direction: column;
+  }
+  .blue-link{
+    margin-left: 0;
+  }
+  .consult__tel {
+    font-size: 11px;
+    margin-left: 9px;
+}
+.consult__btn {
+    width: 130px;
+}
+  .logo img {
+    width: 200%;
+}
+  .phone__btn{
+    display: none;;
+}
+  .phone__btn_margin{
+    margin: 20px auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
