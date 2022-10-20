@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+   <link rel="stylesheet" href="/bootstrap-reboot.min.css">
+   <link rel="stylesheet" href="/bootstrap.min.css">
+   <link rel="stylesheet" href="/all.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>Online-menu</title>
+</head>
+<body>
+    <div class="header">
+        <div id="burger" class="burger">
+            <div id="users" class="users">
+                <div>
+                    <h3>Вход:</h3>
+                    <input type="radio" id="user" name="check" value="user"  onclick="onlyOne(this)" checked>
+                    <label for="user">User</label>
+                    <input type="radio" id="admin" name="check" value="admin" onclick="onlyOne(this)">
+                    <label for="admin">Admin</label>
+                  </div>
+            </div>  
+            <div id="form" class="form">
+                <h3>Меню:</h3>
+                <input id="input_name" type="name" placeholder="Название продукта" value="Сендвич">
+                <input id="input_price" type="number" placeholder="Цена продукта" value="150">
+                <input id="input_submit" type="submit" onclick="createNewCart()">
+            </div>
+       </div>
+        <div  id="container" class="container">
+            <div class="row">
+                <nav class="navbar">
+                    <div class="navbar_burger">
+                        <i onclick="openMenu()"class="fas fa-bars"></i>
+                    </div>  
+                    <div class="navbar_logo">
+                        Clover
+                    </div>
+                    <div class="navbar_shop">
+                        <i id="navbar_button" onclick="openBasket()" class="fas fa-shopping-cart"></i>
+                        <p id="navbar_price">0</p><span> грн</span>
+                    </div>
+                </nav>
+        </div>
+        <div class="row">
+            <div class="tabs">
+                <div class="tab">
+                    <a href="#pizza_0"><i class="fas fa-pizza-slice"></i></a>
+                </div>
+                <div class="tab">
+                    <a href="#pizza_12"><i class="fas fa-cocktail"></i></a>     
+                </div>
+                <div class="tab">
+                    <a href="#pizza_19"><i class="fas fa-coffee"></i></a>  
+                </div>
+            </div>
+            <div class="tabs_subcats">
+                <input id="input" class="tabs_input" type="text" placeholder="Поиск продуктов">
+                <i id="search" class="fas fa-search"></i>
+            </div>
+        </div>
+        <div id="menu_cards" class="row  menu_cards justify-content-center">
+        </div>  
+            <div class="row footer">
+                <img class="logo_footer" src="/img/facebook-brands.svg" alt="">
+                <img class="logo_footer" src="/img/instagram-brands.svg" alt="">
+                <p>Работаем с 8:00 до 22:00</p>
+            </div>
+     </div>
+     <div id="basket" class="basket">
+         <h3>Ваш заказ:</h3>
+    </div>
+</div>
+    <script src="/main.js"></script>
+</body>
+</html>
