@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <title>BCM</title>
+</head>
+<body>
+    <main>
+        <div class="section"">
+          <div class="section__overlay">
+            <div class="container">
+              <div class="content">
+                  <div class="content__title">
+                      <h1 class="title">BCM<br>Immobilien</h1>
+                  </div>
+                  <div id="loader" class="loader" >
+                </div>
+                  <div class="content__form">
+                    <div id="afterLoader" class="after__loader">
+                      <img class="check__icon" src="./img/check_icon.svg" alt="">
+                      <img id="closeIcon" class="close__icon" src="./img/close_icon.svg" alt="">
+                      <h3 class="after__loader__title" >Danke!</h3>
+                      <p class="after__loader__text">Wir werden Sie bald kontaktieren!</p>
+                    </div>
+                      <form id="form" action="#" class="form">
+                        <h2 class="form__title">Kontaktiere uns</h2>
+                          <div id="formList" class="form__list">
+                            <div class="form__item">
+                              <input id="formName" type="text" name="name" class="form__input _req"  placeholder="Ihr Name"/>
+                            </div>
+                            <div class="form-__tem">
+                              <input id="formEmail" type="text" name="email" class="form__input _req _email"  placeholder="Ihre E-Mail"/>
+                            </div>
+                            <div class="form__item">
+                              <input id="formPhone" type="text" name="phone" class="form__input _req _phone" placeholder="Ihre Telefonnummer"/>
+                            </div>
+                            <div class="form__item">
+                                  <textarea id="formTextarea" value="Test" class="form__textarea _req" name="message" id="" cols="30" rows="5" placeholder="Nachricht"></textarea>
+                            </div>
+                            <div style="transform:scale(0.7); transform-origin:0;" data-theme="dark" class="g-recaptcha _req _captcha" data-sitekey="6Le4Kr8iAAAAAHb3lDpB8-8nh3T0jnUYLBGxkdfk"></div>
+                            <button id="submit" type="submit" class="form__button">Senden</button>
+                          </div>
+                        </form>
+                  </div>
+              </div>
+              <nav class="nav">
+                  <div class="nav__item"><a href="bcm-Impressum.html" target="_blank">Impressum</a></div>
+                  <div class="nav__item"><a href="bcm-Datenschutz.html" target="_blank">Datenschutz</a></div>
+              </nav>
+          </div>
+          </div>
+        </div>
+    </main>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
